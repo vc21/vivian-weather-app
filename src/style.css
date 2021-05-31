@@ -37,24 +37,24 @@ img {
   margin-bottom: -15px;
 }
 
-a {
-  text-decoration: none;
-  color: rgb(185, 185, 185);
-}
-
 small {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
-  margin: 40px 0;
+  margin: 0 auto;
 }
 
 .weather-app {
-  max-width: 550px;
-  margin: 0 auto;
-  margin: 30px 80px;
+  max-width: 500px;
+  margin: 30px auto;
   padding: 35px 30px;
   border: 1px solid rgb(124, 124, 124);
   border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.weather-app-wrapper {
+  max-width: 500px;
+  margin: 30px auto;
 }
 
 .main {
@@ -70,6 +70,11 @@ small {
   line-height: 8px;
   margin-bottom: 15px;
   padding: -10px;
+}
+
+.temperature-unit {
+  text-decoration: none;
+  color: rgb(185, 185, 185);
 }
 
 div#temp.row {
