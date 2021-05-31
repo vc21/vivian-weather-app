@@ -1,0 +1,103 @@
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 4px;
+  margin-top: 20px;
+  margin-bottom: -30px;
+}
+
+h2 {
+  display: inline-block;
+  font-size: 45px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-size: 22px;
+  margin: -5px 0;
+}
+
+div {
+  font-family: "Lato", sans-serif;
+}
+
+img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  margin-top: -25px;
+  margin-bottom: -15px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(185, 185, 185);
+}
+
+small {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  margin: 40px 0;
+}
+
+.weather-app {
+  max-width: 550px;
+  margin: 0 auto;
+  margin: 30px 80px;
+  padding: 35px 30px;
+  border: 1px solid rgb(124, 124, 124);
+  border-radius: 5px;
+}
+
+.main {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.today-date {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  line-height: 8px;
+  margin-bottom: 15px;
+  padding: -10px;
+}
+
+div#temp.row {
+  text-align: center;
+}
+
+.forecast-first,
+.forecast-second,
+.forecast-third,
+.forecast-fourth,
+.forecast-fifth,
+.forecast-sixth {
+  display: block;
+  margin: 0 auto;
+  width: 45px;
+  margin-left: -6px;
+}
+
+#low,
+#high {
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+#low {
+  color: rgb(185, 185, 185);
+}
+
+#high {
+  color: rgb(124, 124, 124);
+}
