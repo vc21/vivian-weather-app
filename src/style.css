@@ -20,11 +20,6 @@ h2 {
   margin-bottom: 5px;
 }
 
-h3 {
-  font-size: 22px;
-  margin: -5px 0;
-}
-
 div {
   font-family: "Lato", sans-serif;
 }
@@ -91,6 +86,12 @@ div#temp.row {
   margin: 0 auto;
   width: 45px;
   margin-left: -6px;
+}
+
+#description {
+  font-size: 22px;
+  margin: -5px 0;
+  text-transform: capitalize;
 }
 
 #low,
