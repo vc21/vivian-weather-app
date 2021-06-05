@@ -10,6 +10,10 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/09bd5aecd7.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather Forecast</title>
@@ -18,6 +22,29 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
+          <form class="mb-5" id="search-city">
+            <div class="row">
+              <div class="col-8">
+                <input
+                  type="search"
+                  id="city-input"
+                  placeholder="Search city"
+                  autofocus="on"
+                  autocomplete="off"
+                  class="form-control"
+                />
+              </div>
+              <div class="col-2">
+                <input type="submit" id="search-button" value="search" />
+              </div>
+              <div class="col-1">
+                <button id="current-location-button">
+                  <i class="fas fa-map-marker-alt"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+
           <h1 id="city">London</h1>
           <img
             class="main"

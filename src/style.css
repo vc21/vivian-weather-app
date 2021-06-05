@@ -88,6 +88,33 @@ div#temp.row {
   margin-left: -6px;
 }
 
+#search-button {
+  display: block;
+  margin: 0 -10px;
+  padding: 7px 13px;
+  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+  background: #215dcc;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+
+#current-location-button {
+  display: block;
+  padding: 7px 13px;
+  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+  background: #5d91f1;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+
 #description {
   font-size: 22px;
   margin: -5px 0;
