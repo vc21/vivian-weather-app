@@ -67,9 +67,23 @@ small {
   padding: -10px;
 }
 
-.temperature-unit {
-  text-decoration: none;
+.changeTemperature {
+  font-size: 15px;
+  margin: 1px;
+}
+
+a {
   color: rgb(185, 185, 185);
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+.changeTemperature .selected {
+  color: black;
+  cursor: default;
 }
 
 div#temp.row {
