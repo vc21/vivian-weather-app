@@ -25,7 +25,6 @@ div {
 }
 
 img {
-  width: 80%;
   display: block;
   margin: 0 auto;
   margin-top: -25px;
@@ -86,20 +85,29 @@ a:hover {
   cursor: default;
 }
 
-div#temp.row {
+.weather-forecast {
   text-align: center;
 }
 
-.forecast-first,
-.forecast-second,
-.forecast-third,
-.forecast-fourth,
-.forecast-fifth,
-.forecast-sixth {
+.forecast-date {
+  color: rgb(124, 124, 124);
+}
+
+.forecast-temperatures {
+  font-size: 14px;
+}
+
+.forecast-low {
+  color: rgb(185, 185, 185);
+}
+
+.forecast-high {
+  color: rgb(124, 124, 124);
+}
+
+.forecast-icon {
   display: block;
   margin: 0 auto;
-  width: 45px;
-  margin-left: -6px;
 }
 
 #search-button {
@@ -133,18 +141,4 @@ div#temp.row {
   font-size: 22px;
   margin: -5px 0;
   text-transform: capitalize;
-}
-
-#low,
-#high {
-  font-size: 14px;
-  padding: 0 10px;
-}
-
-#low {
-  color: rgb(185, 185, 185);
-}
-
-#high {
-  color: rgb(124, 124, 124);
 }

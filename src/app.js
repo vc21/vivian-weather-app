@@ -25,6 +25,32 @@ let now = new Date();
 let today = document.querySelector("#today-date");
 today.innerHTML = formatDate(now);
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let forecastHTML = `<div class="row">`;
+  let days = ["Thu", "Fri", "Sat", "Sun", "Mon", "Tue"];
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `
+      <div class="col-2">
+          <div class="forecast-date">${day}</div>
+          <img
+            class="forecast-icon"
+            src="images/sunny.png"
+            alt="Sunny weather icon"
+            width="42"
+          />
+          <div class="forecast-temperatures">
+            <span class="forecast-low"> 12˚</span>
+            <span class="forecast-high"> 25˚</span>
+      </div>`;
+    forecastHTML = forecastHTML + `</div>`;
+    forecastElement.innerHTML = forecastHTML;
+  });
+}
+
 function showTemperature(response) {
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
@@ -101,3 +127,4 @@ let celsius = document.querySelector("#showCelsius");
 celsius.addEventListener("click", showCelsius);
 
 searchCity("Berlin");
+displayForecast();
